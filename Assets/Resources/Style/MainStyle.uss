@@ -1,0 +1,49 @@
+:root
+{
+    flex-direction:row;
+}
+
+.LeftPanel{
+    width:60%;
+    height:100%;
+    border-right-width:1px;
+    border-color:white;
+    justify-content:center;
+}
+
+.RightPanel{
+    width:40%;
+    height:100%;
+}
+
+.Property{
+    flex-direction:row;
+    -unity-text-align:middle-center;
+    justify-content:center;
+    width:100%;
+    flex-wrap:wrap;
+}
+
+.VerticalProperty{
+    flex-direction:column;
+}
+
+.CustomSlider{
+    width:100%;
+}
+
+.CustomButton{
+    background-color:gray;
+    transition:0.25s all;
+}
+
+.CustomButton:hover{
+    background-color:blue;
+    color:white;
+}
+
+.CustomTextField{
+    width:30px;
+    height:30px;
+}
+
